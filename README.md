@@ -15,7 +15,7 @@ The primary focus of this repository is to explore the fundamentals of Diffusion
 I am following the first two units of the Hugging Face Diffusion Course as requested.
 
 ### **Prerequisites: PyTorch Essentials**
-- [ ] **PyTorch in 60 Minutes:** Quick start guide for PyTorch.
+- [x] **PyTorch in 60 Minutes:** Quick start guide for PyTorch.
 - [ ] **Intro to Deep Learning with PyTorch:** Fundamental deep learning concepts with PyTorch.
 
 ### **Unit 1: Introduction to Diffusion Models**
@@ -34,8 +34,13 @@ I am following the first two units of the Hugging Face Diffusion Course as reque
 ```text
 .
 ├── pytorch_prerequisites/   # PyTorch training notebooks
-│   ├── 1_pytorch_in_60_mins.ipynb
-│   └── 2_intro_deeplearning_withpytorch.ipynb
+│   ├── 1_pytorch_in_60_mins/
+│   │   ├── 1_tensors.ipynb
+│   │   ├── 2_a_gentleIntroduction_to_torchautograd.ipynb
+│   │   ├── 3_neural_networks.ipynb
+│   │   └── 4_training_a_classifier.ipynb
+│   └── 2_intro_deeplearning_withpytorch/
+│       └── 1_introduction_to_neural_networks.ipynb
 ├── unit1_introduction/      # Notebooks and outputs for Unit 1
 │   ├── 01_diffusion_intro.ipynb
 │   └── outputs/

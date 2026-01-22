@@ -10,3 +10,12 @@ desktop.ini
 # Python
 __pycache__/
 *.py[cod]
+
+# PyTorch Models & Checkpoints
+*.pth
+*.pt
+models/
+checkpoints/
+
+# Personal Notes
+notes.md
