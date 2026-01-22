@@ -1,0 +1,12 @@
+# Google Drive Sync
+.tmp.drivedownload/
+.tmp.driveupload/
+desktop.ini
+~$*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
