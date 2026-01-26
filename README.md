@@ -16,7 +16,8 @@ I am following the first two units of the Hugging Face Diffusion Course as reque
 
 ### **Prerequisites: PyTorch Essentials**
 - [x] **PyTorch in 60 Minutes:** Quick start guide for PyTorch.
-- [ ] **Intro to Deep Learning with PyTorch:** Fundamental deep learning concepts with PyTorch.
+- [x] **Intro to Deep Learning with PyTorch:** Fundamental deep learning concepts with PyTorch.
+  - *Note: The `6_pytorch/` folder contains materials from [Udacity's Deep Learning with PyTorch course](https://www.udacity.com/course/deep-learning-pytorch--ud188).*
 
 ### **Unit 1: Introduction to Diffusion Models**
 - [ ] **Theory:** Understanding the logic behind Diffusion Models (Forward/Reverse Process).
@@ -40,7 +41,44 @@ I am following the first two units of the Hugging Face Diffusion Course as reque
 │   │   ├── 3_neural_networks.ipynb
 │   │   └── 4_training_a_classifier.ipynb
 │   └── 2_intro_deeplearning_withpytorch/
-│       └── 1_introduction_to_neural_networks.ipynb
+│       ├── 1_introduction_to_neural_networks.ipynb
+│       ├── 2_gradient_descent.ipynb
+│       ├── 3_neural_network_architecture.ipynb
+│       ├── 4_analyzing_student_data.ipynb
+│       ├── 5_training_optimization.ipynb
+│       ├── 6_pytorch/
+│       │   ├── Part 1 - Tensors in PyTorch (Exercises).ipynb
+│       │   ├── Part 2 - Neural Networks in PyTorch (Exercises).ipynb
+│       │   ├── Part 3 - Training Neural Networks (Exercises).ipynb
+│       │   ├── Part 4 - Fashion-MNIST (Exercises).ipynb
+│       │   ├── Part 5 - Inference and Validation (Exercises).ipynb
+│       │   ├── Part 6 - Saving and Loading Models.ipynb
+│       │   ├── Part 7 - Loading Image Data (Exercises).ipynb
+│       │   ├── Part 8 - Transfer Learning (Exercises).ipynb
+│       │   ├── fc_model.py
+│       │   ├── helper.py
+│       │   ├── checkpoint.pth
+│       │   └── assets/
+│       ├── 7_convolutional_neural_nteworks/
+│       │   ├── 1_intro_to_cnn.ipynb
+│       │   ├── 2_mnist_mlp_exercise.ipynb
+│       │   ├── 3_conv_visualization.ipynb
+│       │   ├── 4_cifar10_cnn_exercise.ipynb
+│       │   └── data/
+│       ├── 8_style_transfer/
+│       │   ├── 1_intro_to_styletransfer.ipynb
+│       │   ├── 2_Style_Transfer_Exercise.ipynb
+│       │   └── images...
+│       ├── 9_Recurrent _Neural_Networks/
+│       │   ├── 1_intro_to_rnn.ipynb
+│       │   ├── 2_Simple_RNN.ipynb
+│       │   ├── 3_Character_Level_RNN_Exercise.ipynb
+│       │   ├── 4_Sentiment_RNN_Exercise.ipynb
+│       │   └── data/
+│       ├── data.csv
+│       ├── data2.csv
+│       ├── student_data.csv
+│       └── image.png, image2.png, image3.png, image4.png, image5.png
 ├── unit1_introduction/      # Notebooks and outputs for Unit 1
 │   ├── 01_diffusion_intro.ipynb
 │   └── outputs/

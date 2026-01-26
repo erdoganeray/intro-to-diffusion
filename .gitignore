@@ -14,8 +14,16 @@ __pycache__/
 # PyTorch Models & Checkpoints
 *.pth
 *.pt
+*.net
 models/
 checkpoints/
 
 # Personal Notes
 notes.md
+
+# Data
+Cat_Dog_data/
+
+# MNIST & RNN Data
+pytorch_prerequisites/2_intro_deeplearning_withpytorch/7_convolutional_neural_nteworks/data/
+pytorch_prerequisites/2_intro_deeplearning_withpytorch/9_Recurrent _Neural_Networks/data/
