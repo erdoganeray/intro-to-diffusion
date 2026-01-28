@@ -20,14 +20,14 @@ I am following the first two units of the Hugging Face Diffusion Course as reque
   - *Note: The `6_pytorch/` folder contains materials from [Udacity's Deep Learning with PyTorch course](https://www.udacity.com/course/deep-learning-pytorch--ud188).*
 
 ### **Unit 1: Introduction to Diffusion Models**
-- [ ] **Theory:** Understanding the logic behind Diffusion Models (Forward/Reverse Process).
-- [ ] **Implementation:** Building a basic diffusion model from scratch using PyTorch.
-- [ ] **Practice:** Exploring the `diffusers` library and noise schedulers.
+- [x] **Theory:** Understanding the logic behind Diffusion Models (Forward/Reverse Process).
+- [x] **Implementation:** Building a basic diffusion model from scratch using PyTorch.
+- [x] **Practice:** Exploring the `diffusers` library and noise schedulers.
 
 ### **Unit 2: Fine-Tuning & Guidance**
-- [ ] **Fine-Tuning:** Training an existing model on a custom dataset.
-- [ ] **Guidance:** Understanding how to control generation outputs.
-- [ ] **Conditioning:** Implementing class-conditioned generation.
+- [x] **Fine-Tuning:** Training an existing model on a custom dataset.
+- [x] **Guidance:** Understanding how to control generation outputs.
+- [x] **Conditioning:** Implementing class-conditioned generation.
 
 
 ## Repository Structure
@@ -80,10 +80,12 @@ I am following the first two units of the Hugging Face Diffusion Course as reque
 │       ├── student_data.csv
 │       └── image.png, image2.png, image3.png, image4.png, image5.png
 ├── unit1_introduction/      # Notebooks and outputs for Unit 1
-│   ├── 01_diffusion_intro.ipynb
-│   └── outputs/
+│   ├── 01_introduction_to_diffusers.ipynb
+│   ├── 02_diffusion_models_from_scratch.ipynb
+│   └── my_pipeline/         # Model outputs
 ├── unit2_finetuning/        # Notebooks and data for Unit 2
-│   ├── 01_finetuning.ipynb
+│   ├── 01_finetuning_and_guidance.ipynb
+│   ├── 02_class_conditioned_diffusion_model_example.ipynb
 │   └── outputs/
 ├── presentation/            # Summary presentation (PPTX/PDF)
 ├── requirements.txt         # Python dependencies

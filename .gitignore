@@ -1,3 +1,15 @@
+# System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
 # Google Drive Sync
 .tmp.drivedownload/
 .tmp.driveupload/
@@ -27,3 +39,7 @@ Cat_Dog_data/
 # MNIST & RNN Data
 pytorch_prerequisites/2_intro_deeplearning_withpytorch/7_convolutional_neural_nteworks/data/
 pytorch_prerequisites/2_intro_deeplearning_withpytorch/9_Recurrent _Neural_Networks/data/
+
+# Diffusion Models
+unit1_introduction/my_pipeline/
+unit1_introduction/mnist/
